@@ -88,6 +88,19 @@ I focused on:
 
 ---
 
+## Deployed API
+
+For convenience, the API is also deployed on Render:
+
+- Base URL: https://take-home-assignment-the-untested-api-1qkg.onrender.com
+
+Example requests:
+
+- `GET https://take-home-assignment-the-untested-api-1qkg.onrender.com/tasks`
+- `GET https://take-home-assignment-the-untested-api-1qkg.onrender.com/tasks/stats`
+
+---
+
 ## Author
 
 **Ankit Dimri**  
