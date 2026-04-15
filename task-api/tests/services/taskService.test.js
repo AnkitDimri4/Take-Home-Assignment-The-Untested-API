@@ -195,4 +195,23 @@ describe("taskService", () => {
       expect(completed).toBeNull();
     });
   });
+  
+  describe("assignTask", () => {
+    test("assigns a task when it exists", () => {
+      const created = taskService.create({ title: "Assign me" });
+
+      const updated = taskService.assignTask(created.id, "Alice");
+
+      expect(updated).not.toBeNull();
+      expect(updated.assignee).toBe("Alice");
+
+      const found = taskService.findById(created.id);
+      expect(found.assignee).toBe("Alice");
+    });
+
+    test("returns null when task does not exist", () => {
+      const updated = taskService.assignTask("non-existent", "Bob");
+      expect(updated).toBeNull();
+    });
+  });
 });
