@@ -1,8 +1,8 @@
 # Task API – Take‑Home Assignment
 
-This is my solution for the **“The Untested API”** take‑home assignment for the Full Stack Developer Intern position at Underpin Services.[web:10]
+This is my solution for the **“The Untested API”** take‑home assignment for the Full Stack Developer Intern position at Underpin Services.
 
-The project is a small Task Manager API built with **Node.js** and **Express**, using an in‑memory data store and tested with **Jest** and **Supertest**.[web:1][web:10]
+The project is a small Task Manager API built with **Node.js** and **Express**, using an in‑memory data store and tested with **Jest** and **Supertest**.
 
 ---
 
@@ -27,7 +27,7 @@ npm run coverage # run tests with coverage report
 
 ## API overview
 
-The main endpoints exposed by the API are:[web:10]
+The main endpoints exposed by the API are:
 
 - `GET /tasks` – list all tasks, with optional `?status=`, `?page=`, `?limit=` query parameters  
 - `POST /tasks` – create a new task  
@@ -35,9 +35,9 @@ The main endpoints exposed by the API are:[web:10]
 - `DELETE /tasks/:id` – delete a task (returns 204 on success)  
 - `PATCH /tasks/:id/complete` – mark a task as complete  
 - `GET /tasks/stats` – return counts by status and overdue tasks  
-- `PATCH /tasks/:id/assign` – **assign a task to a user** (implemented in this solution)[web:1][web:10]
+- `PATCH /tasks/:id/assign` – **assign a task to a user** (implemented in this solution)
 
-Task objects follow the shape described in the original assignment (`id`, `title`, `description`, `status`, `priority`, `dueDate`, `completedAt`, `createdAt`).[web:10]
+Task objects follow the shape described in the original assignment (`id`, `title`, `description`, `status`, `priority`, `dueDate`, `completedAt`, `createdAt`).
 
 ---
 
@@ -70,7 +70,7 @@ I focused on:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/AnkitDimri4/Take-Home-Assignment-The-Untested-API.git
+   git clone [https://github.com/AnkitDimri4/Take-Home-Assignment-The-Untested-API.git](https://github.com/AnkitDimri4/Take-Home-Assignment-The-Untested-API.git)
    cd Take-Home-Assignment-The-Untested-API/task-api
    ```
 
