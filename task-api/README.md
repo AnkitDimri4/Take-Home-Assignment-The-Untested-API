@@ -105,6 +105,6 @@ Example requests:
 
 **Ankit Dimri**  
 Full‑Stack & AI Developer  
-GitHub: [AnkitDimri4](https://github.com/AnkitDimri4)
+GitHub: [![GitHub](https://img.shields.io/badge/GitHub-AnkitDimri4-black?logo=github)](https://github.com/AnkitDimri4)
 
 ---
