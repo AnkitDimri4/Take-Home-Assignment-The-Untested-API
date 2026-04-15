@@ -1,4 +1,13 @@
+
+---
+
 # Take-Home Assignment — The Untested API
+
+> **Candidate implementation:**  
+> My solution for this assignment is in the [`task-api`](./task-api) directory:  
+> - Main implementation README: [`task-api/README.md`](./task-api/README.md)  
+> - Bug report: [`task-api/BUG_REPORT.md`](./task-api/BUG_REPORT.md)  
+> - Notes (coverage, next tests, questions): [`task-api/NOTES.md`](./task-api/NOTES.md)
 
 A 2-day take-home assignment. You'll read unfamiliar code, write tests, track down bugs, and ship a small feature.
 
