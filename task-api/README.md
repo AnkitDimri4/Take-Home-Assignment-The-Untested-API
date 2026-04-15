@@ -70,7 +70,7 @@ I focused on:
 1. Clone the repository:
 
    ```bash
-   git clone [https://github.com/AnkitDimri4/Take-Home-Assignment-The-Untested-API.git](https://github.com/AnkitDimri4/Take-Home-Assignment-The-Untested-API.git)
+   git clone https://github.com/AnkitDimri4/Take-Home-Assignment-The-Untested-API.git
    cd Take-Home-Assignment-The-Untested-API/task-api
    ```
 
